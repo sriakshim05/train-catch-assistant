@@ -1,0 +1,27 @@
+name: catch_the_train
+description: Smart Local Train Guidance System for Tamil Nadu - tells users when to leave and which local train to catch.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_maps_flutter: ^2.7.0
+  geolocator: ^13.0.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+

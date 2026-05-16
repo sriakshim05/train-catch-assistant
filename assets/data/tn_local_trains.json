@@ -1,0 +1,23 @@
+[
+  {
+    "train_no": "43001",
+    "train_name": "Chennai Beach – Tambaram Local",
+    "from_station": "Chennai Beach",
+    "to_station": "Chennai Egmore",
+    "departure_time": "10:10",
+    "arrival_time": "10:40",
+    "train_type": "Local",
+    "districts_covered": ["Chennai"]
+  },
+  {
+    "train_no": "43005",
+    "train_name": "Guindy – Chennai Egmore Local",
+    "from_station": "Guindy",
+    "to_station": "Chennai Egmore",
+    "departure_time": "10:10",
+    "arrival_time": "10:40",
+    "train_type": "Local",
+    "districts_covered": ["Chennai"]
+  }
+]
+

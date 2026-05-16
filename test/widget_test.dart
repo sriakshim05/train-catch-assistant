@@ -24,7 +24,7 @@ void main() {
     await tester.pump();
 
     // Verify that our counter has incremented. 
-    // Changes to check git that the test is working
+    // Changes to check git that the test is working check 3
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
   });

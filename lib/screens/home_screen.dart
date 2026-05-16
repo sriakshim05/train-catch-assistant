@@ -9,6 +9,7 @@ import 'package:intl/intl.dart';
 import '../services/timetable_service.dart';
 
 // ─────────────────────────── CONSTANTS ───────────────────────────
+<<<<<<< HEAD
 const _kPrimary = Color(0xFF1a1a1a);
 const _kAccent = Color(0xFF00FF41);
 const _kBg = Color(0xFF000000);
@@ -17,6 +18,16 @@ const _kCardBorder = Color(0xFF2a2a2a);
 const _kSurface = Color(0xFF0a0a0a);
 const _kTextPrimary = Colors.white;
 const _kTextSecondary = Color(0xFF888888);
+=======
+const _kPrimary = Color(0xFF6C63FF);
+const _kAccent = Color(0xFF00D4AA);
+const _kBg = Color(0xFF0A0E21);
+const _kCard = Color(0xFF1A1F3C);
+const _kCardBorder = Color(0xFF2A3060);
+const _kSurface = Color(0xFF141831);
+const _kTextPrimary = Colors.white;
+const _kTextSecondary = Color(0xFF8B92B8);
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
 const _kError = Color(0xFFFF6B6B);
 
 // ─────────────────────────── SCREEN ───────────────────────────────
@@ -442,19 +453,31 @@ class _HomeScreenState extends State<HomeScreen>
   Widget _buildHeader() {
     return Row(
       children: [
+<<<<<<< HEAD
+=======
+        // Logo container
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
         Container(
           width: 58,
           height: 58,
           decoration: BoxDecoration(
             gradient: const LinearGradient(
+<<<<<<< HEAD
               colors: [_kAccent, Color(0xFF00DD35)],
+=======
+              colors: [_kPrimary, Color(0xFF9C95FF)],
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
             borderRadius: BorderRadius.circular(18),
             boxShadow: [
               BoxShadow(
+<<<<<<< HEAD
                 color: _kAccent.withOpacity(0.5),
+=======
+                color: _kPrimary.withOpacity(0.5),
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
                 blurRadius: 20,
                 offset: const Offset(0, 8),
               ),
@@ -470,7 +493,11 @@ class _HomeScreenState extends State<HomeScreen>
             children: [
               ShaderMask(
                 shaderCallback: (bounds) => const LinearGradient(
+<<<<<<< HEAD
                   colors: [Color(0xFF00FF41), Color(0xFF00DD35)],
+=======
+                  colors: [Colors.white, Color(0xFFB0ABFF)],
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
                 ).createShader(bounds),
                 child: const Text(
                   'Catch The Train',
@@ -727,9 +754,15 @@ class _HomeScreenState extends State<HomeScreen>
           decoration: BoxDecoration(
             gradient: _loading
                 ? const LinearGradient(
+<<<<<<< HEAD
                     colors: [Color(0xFF0a0a0a), Color(0xFF0a0a0a)])
                 : const LinearGradient(
                     colors: [_kAccent, Color(0xFF00DD35)],
+=======
+                    colors: [Color(0xFF4A4285), Color(0xFF3D5975)])
+                : const LinearGradient(
+                    colors: [_kPrimary, Color(0xFF8B7FFF)],
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
                   ),
@@ -738,7 +771,11 @@ class _HomeScreenState extends State<HomeScreen>
                 ? []
                 : [
                     BoxShadow(
+<<<<<<< HEAD
                       color: _kAccent.withOpacity(0.45),
+=======
+                      color: _kPrimary.withOpacity(0.45),
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
                       blurRadius: 22,
                       offset: const Offset(0, 10),
                     ),
@@ -807,18 +844,30 @@ class _HomeScreenState extends State<HomeScreen>
     return Container(
       decoration: BoxDecoration(
         gradient: const LinearGradient(
+<<<<<<< HEAD
           colors: [Color(0xFF0f0f0f), Color(0xFF000000)],
+=======
+          colors: [Color(0xFF1B1F45), Color(0xFF151B3B)],
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(24),
         border: Border.all(
+<<<<<<< HEAD
           color: _kAccent.withOpacity(0.35),
+=======
+          color: _kPrimary.withOpacity(0.35),
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
           width: 1.5,
         ),
         boxShadow: [
           BoxShadow(
+<<<<<<< HEAD
             color: _kAccent.withOpacity(0.25),
+=======
+            color: _kPrimary.withOpacity(0.25),
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
             blurRadius: 30,
             offset: const Offset(0, 12),
           ),
@@ -831,7 +880,11 @@ class _HomeScreenState extends State<HomeScreen>
             padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(
               gradient: LinearGradient(
+<<<<<<< HEAD
                 colors: [_kAccent.withOpacity(0.35), Colors.transparent],
+=======
+                colors: [_kPrimary.withOpacity(0.35), Colors.transparent],
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
@@ -845,11 +898,19 @@ class _HomeScreenState extends State<HomeScreen>
                 Container(
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
+<<<<<<< HEAD
                     color: _kAccent,
                     borderRadius: BorderRadius.circular(12),
                     boxShadow: [
                       BoxShadow(
                           color: _kAccent.withOpacity(0.6),
+=======
+                    color: _kPrimary,
+                    borderRadius: BorderRadius.circular(12),
+                    boxShadow: [
+                      BoxShadow(
+                          color: _kPrimary.withOpacity(0.6),
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
                           blurRadius: 12,
                           offset: const Offset(0, 4)),
                     ],

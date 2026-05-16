@@ -9,7 +9,11 @@ void main() {
     const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
       statusBarIconBrightness: Brightness.light,
+<<<<<<< HEAD
       systemNavigationBarColor: Color(0xFF000000),
+=======
+      systemNavigationBarColor: Color(0xFF0A0E21),
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
       systemNavigationBarIconBrightness: Brightness.light,
     ),
   );
@@ -30,11 +34,19 @@ class CatchTheTrainApp extends StatelessWidget {
   }
 
   ThemeData _buildTheme() {
+<<<<<<< HEAD
     const primaryColor = Color(0xFF1a1a1a);
     const accentColor = Color(0xFF00FF41);
     const bgColor = Color(0xFF000000);
     const surfaceColor = Color(0xFF0a0a0a);
     const cardColor = Color(0xFF1a1a1a);
+=======
+    const primaryColor = Color(0xFF6C63FF);
+    const accentColor = Color(0xFF00D4AA);
+    const bgColor = Color(0xFF0A0E21);
+    const surfaceColor = Color(0xFF141831);
+    const cardColor = Color(0xFF1E2340);
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
 
     return ThemeData(
       useMaterial3: true,
@@ -58,7 +70,11 @@ class CatchTheTrainApp extends StatelessWidget {
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(14),
+<<<<<<< HEAD
           borderSide: const BorderSide(color: Color(0xFF2a2a2a), width: 1.5),
+=======
+          borderSide: const BorderSide(color: Color(0xFF2E3460), width: 1.5),
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(14),
@@ -72,8 +88,13 @@ class CatchTheTrainApp extends StatelessWidget {
           borderRadius: BorderRadius.circular(14),
           borderSide: const BorderSide(color: Color(0xFFFF6B6B), width: 2),
         ),
+<<<<<<< HEAD
         labelStyle: const TextStyle(color: Color(0xFF888888), fontSize: 14),
         hintStyle: const TextStyle(color: Color(0xFF666666), fontSize: 14),
+=======
+        labelStyle: const TextStyle(color: Color(0xFF8B92B8), fontSize: 14),
+        hintStyle: const TextStyle(color: Color(0xFF4A5178), fontSize: 14),
+>>>>>>> 49ff633392ff1748c09a530ced8f14c475302a7d
         prefixIconColor: primaryColor,
         contentPadding: const EdgeInsets.symmetric(horizontal: 18, vertical: 18),
         errorStyle: const TextStyle(color: Color(0xFFFF6B6B)),
